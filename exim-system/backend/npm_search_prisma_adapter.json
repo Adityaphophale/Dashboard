@@ -1,0 +1,81 @@
+﻿[
+
+{"name":"@auth/prisma-adapter","keywords":["next-auth","next.js","oauth","prisma"],"version":"2.11.2","description":"Prisma adapter for Auth.js","sanitized_name":"@auth/prisma-adapter","publisher":{"email":"gustavo@better-auth.com","actor":{"name":"balazsorban","type":"user","email":"info@balazsorban.com"},"username":"better-gustavo"},"maintainers":[{"email":"gustavo@better-auth.com","username":"better-gustavo"},{"email":"Bekacru@gmail.com","username":"bekacru"}],"license":"ISC","date":"2026-04-14T18:58:20.178Z","links":{"homepage":"https://authjs.dev/reference/adapter/prisma","repository":"git+https://github.com/nextauthjs/next-auth.git","bugs":"https://github.com/nextauthjs/next-auth/issues","npm":"https://www.npmjs.com/package/@auth/prisma-adapter"}}
+
+,
+
+{"name":"@better-auth/prisma-adapter","keywords":["auth","prisma","adapter","typescript","better-auth"],"version":"1.6.14","description":"Prisma adapter for Better Auth","sanitized_name":"@better-auth/prisma-adapter","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"Bekacru@gmail.com","username":"bekacru"},{"email":"gustavo@better-auth.com","username":"better-gustavo"}],"license":"MIT","date":"2026-06-02T20:59:09.382Z","links":{"homepage":"https://www.better-auth.com/docs/adapters/prisma","repository":"git+https://github.com/better-auth/better-auth.git","bugs":"https://github.com/better-auth/better-auth/issues","npm":"https://www.npmjs.com/package/@better-auth/prisma-adapter"}}
+
+,
+
+{"name":"@next-auth/prisma-adapter","keywords":["next-auth","next.js","oauth","prisma"],"version":"1.0.7","description":"Prisma adapter for next-auth.","sanitized_name":"@next-auth/prisma-adapter","publisher":{"email":"info@balazsorban.com","username":"balazsorban"},"maintainers":[{"email":"gustavo@better-auth.com","username":"better-gustavo"},{"email":"Bekacru@gmail.com","username":"bekacru"}],"license":"ISC","date":"2023-06-01T12:59:49.274Z","links":{"homepage":"https://authjs.dev","repository":"git+https://github.com/nextauthjs/next-auth.git","bugs":"https://github.com/nextauthjs/next-auth/issues","npm":"https://www.npmjs.com/package/@next-auth/prisma-adapter"}}
+
+,
+
+{"name":"casbin-prisma-adapter","keywords":[],"version":"1.12.0","description":"Prisma adapter for Casbin","sanitized_name":"casbin-prisma-adapter","publisher":{"email":"hsluoyz@gmail.com","actor":{"name":"nodece","type":"user","email":"nodeces@gmail.com"},"username":"hsluoyz"},"maintainers":[{"email":"hsluoyz@gmail.com","username":"hsluoyz"},{"email":"nodeces@gmail.com","username":"nodece"}],"date":"2026-02-01T14:11:58.262Z","links":{"npm":"https://www.npmjs.com/package/casbin-prisma-adapter"}}
+
+,
+
+{"name":"@nestjs-cls/transactional-adapter-prisma","keywords":["nest","nestjs","cls","continuation-local-storage","als","AsyncLocalStorage","async_hooks","request context","async context","transaction","transactional","transactional decorator","aop","prisma"],"version":"1.3.5","description":"A Prisma adapter for @nestjs-cls/transactional","sanitized_name":"@nestjs-cls/transactional-adapter-prisma","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"papooch","type":"user","email":"papoochcz@gmail.com"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"papoochcz@gmail.com","username":"papooch"}],"license":"MIT","date":"2026-05-25T19:32:20.562Z","links":{"homepage":"https://papooch.github.io/nestjs-cls/","repository":"git+https://github.com/Papooch/nestjs-cls.git","npm":"https://www.npmjs.com/package/@nestjs-cls/transactional-adapter-prisma"}}
+
+,
+
+{"name":"@adminjs/prisma","keywords":["prisma","provider","adminjs","orm admin","prisma admin","admin panel"],"version":"5.0.4","description":"Prisma adapter for AdminJS","sanitized_name":"@adminjs/prisma","publisher":{"email":"adminjs@softwarebrothers.co","actor":{"name":"adminjs-developer","type":"user","email":"adminjs@softwarebrothers.co"},"username":"adminjs-developer"},"maintainers":[{"email":"lukasz.szramko@gmail.com","username":"szrama"},{"email":"rafal.dzieg@gmail.com","username":"dziraf"},{"email":"adminjs@softwarebrothers.co","username":"adminjs-developer"}],"license":"MIT","date":"2025-06-18T12:45:43.459Z","links":{"homepage":"https://github.com/SoftwareBrothers/adminjs-prisma#readme","repository":"git+https://github.com/SoftwareBrothers/adminjs-prisma.git","bugs":"https://github.com/SoftwareBrothers/adminjs-prisma/issues","npm":"https://www.npmjs.com/package/@adminjs/prisma"}}
+
+,
+
+{"name":"@cerbos/orm-prisma","keywords":["cerbos","prisma","orm","authorization","permissions"],"version":"3.3.0","description":"Prisma adapter for Cerbos query plans","sanitized_name":"@cerbos/orm-prisma","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"alex@alexolivier.me","username":"alexolivier"},{"email":"andrew@haines.org.nz","username":"ahaines"}],"license":"Apache-2.0","date":"2026-03-26T15:31:49.920Z","links":{"homepage":"https://cerbos.dev","repository":"git+https://github.com/cerbos/query-plan-adapters.git","bugs":"https://github.com/cerbos/query-plan-adapters/issues","npm":"https://www.npmjs.com/package/@cerbos/orm-prisma"}}
+
+,
+
+{"name":"@prisma/adapter-pg","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for \"pg\"","sanitized_name":"@prisma/adapter-pg","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"madden@prisma.io","username":"wmadden-prisma"},{"email":"tyler@tylerbenfield.me","username":"rtbenfield"}],"license":"Apache-2.0","date":"2026-04-22T14:07:28.866Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-pg"}}
+
+,
+
+{"name":"next-auth-prisma-adapter","keywords":["prisma","next-auth","adapter","models","config"],"version":"0.1.0","description":"Configurable models names for next-auth's Prisma Adapter","sanitized_name":"next-auth-prisma-adapter","publisher":{"email":"orlando.groppo@gmail.com","username":"orlandogroppo"},"maintainers":[{"email":"orlando.groppo@gmail.com","username":"orlandogroppo"}],"license":"MIT","date":"2022-05-28T20:50:50.545Z","links":{"npm":"https://www.npmjs.com/package/next-auth-prisma-adapter"}}
+
+,
+
+{"name":"@siteping/adapter-prisma","keywords":["siteping","prisma","adapter","feedback","api-handler","nextjs","feedback-api","self-hosted","typescript"],"version":"0.4.8","description":"Prisma adapter for Siteping ΓÇö server-side request handlers","sanitized_name":"@siteping/adapter-prisma","publisher":{"email":"olsen.matheo@gmail.com","username":"neosianexus"},"maintainers":[{"email":"olsen.matheo@gmail.com","username":"neosianexus"}],"license":"MIT","date":"2026-05-20T00:01:44.297Z","links":{"homepage":"https://siteping.dev","repository":"git+https://github.com/NeosiaNexus/SitePing.git","bugs":"https://github.com/NeosiaNexus/SitePing/issues","npm":"https://www.npmjs.com/package/@siteping/adapter-prisma"}}
+
+,
+
+{"name":"@rudderjs/orm-prisma","keywords":[],"version":"2.2.0","description":"Prisma adapter for `@rudderjs/orm`.","sanitized_name":"@rudderjs/orm-prisma","publisher":{"email":"suleiman@averotech.com","username":"suleimansh"},"maintainers":[{"email":"suleiman@averotech.com","username":"suleimansh"}],"license":"MIT","date":"2026-06-05T13:04:41.241Z","links":{"homepage":"https://github.com/rudderjs/rudder#readme","repository":"git+https://github.com/rudderjs/rudder.git","bugs":"https://github.com/rudderjs/rudder/issues","npm":"https://www.npmjs.com/package/@rudderjs/orm-prisma"}}
+
+,
+
+{"name":"@prisma/adapter-mariadb","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for \"mariadb\"","sanitized_name":"@prisma/adapter-mariadb","publisher":{"actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"tylerhogarth@gmail.com","username":"tylerhogarth"},{"email":"dev.ankur.datta@gmail.com","username":"ankur-datta-007"}],"license":"Apache-2.0","date":"2026-04-22T14:06:41.633Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-mariadb"}}
+
+,
+
+{"name":"@prisma/adapter-neon","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for \"@neondatabase/serverless\"","sanitized_name":"@prisma/adapter-neon","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"madden@prisma.io","username":"wmadden-prisma"},{"email":"tyler@tylerbenfield.me","username":"rtbenfield"}],"license":"Apache-2.0","date":"2026-04-22T14:07:13.161Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-neon"}}
+
+,
+
+{"name":"@prisma/adapter-libsql","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for libSQL and Turso","sanitized_name":"@prisma/adapter-libsql","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"madden@prisma.io","username":"wmadden-prisma"},{"email":"tyler@tylerbenfield.me","username":"rtbenfield"}],"license":"Apache-2.0","date":"2026-04-22T14:06:26.062Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-libsql"}}
+
+,
+
+{"name":"@prisma/adapter-better-sqlite3","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for better-sqlite3, a fast SQLite3 driver for JavaScript runtimes","sanitized_name":"@prisma/adapter-better-sqlite3","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"tylerhogarth@gmail.com","username":"tylerhogarth"},{"email":"dev.ankur.datta@gmail.com","username":"ankur-datta-007"}],"license":"Apache-2.0","date":"2026-04-22T14:05:54.176Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-better-sqlite3"}}
+
+,
+
+{"name":"@zenstackhq/better-auth","keywords":["better-auth","auth"],"version":"3.7.2","description":"ZenStack Better Auth Adapter. This adapter is modified from better-auth's Prisma adapter.","sanitized_name":"@zenstackhq/better-auth","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"yiming@whimslab.io","username":"ymc9"},{"email":"jiashengguo@outlook.com","username":"jiasheng"}],"license":"MIT","date":"2026-05-31T02:36:49.532Z","links":{"homepage":"https://zenstack.dev","repository":"git+https://github.com/zenstackhq/zenstack.git","bugs":"https://github.com/zenstackhq/zenstack/issues","npm":"https://www.npmjs.com/package/@zenstackhq/better-auth"}}
+
+,
+
+{"name":"pglite-prisma-adapter","keywords":["Bun","Cloudflare","Deno","Netlify","PostgreSQL","Prisma","SQL","Vercel","database","edge","electric-sql","pglite","serverless"],"version":"0.7.2","description":"Prisma's driver adapter for \"@electric-sql/pglite\"","sanitized_name":"pglite-prisma-adapter","publisher":{"email":"lucastcervantes@gmail.com","actor":{"name":"thevenet","type":"user","email":"lucastcervantes@gmail.com"},"username":"thevenet"},"maintainers":[{"email":"lucastcervantes@gmail.com","username":"thevenet"}],"license":"MIT","date":"2026-01-17T20:01:19.418Z","links":{"homepage":"https://github.com/lucasthevenet/pglite-utils#readme","repository":"git+https://github.com/lucasthevenet/pglite-utils.git","bugs":"https://github.com/lucasthevenet/pglite-utils/issues","npm":"https://www.npmjs.com/package/pglite-prisma-adapter"}}
+
+,
+
+{"name":"@prisma/adapter-mssql","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for \"mssql\"","sanitized_name":"@prisma/adapter-mssql","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"tylerhogarth@gmail.com","username":"tylerhogarth"},{"email":"dev.ankur.datta@gmail.com","username":"ankur-datta-007"}],"license":"Apache-2.0","date":"2026-04-22T14:06:57.577Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-mssql"}}
+
+,
+
+{"name":"@prisma/adapter-planetscale","keywords":[],"version":"7.8.0","description":"Prisma's driver adapter for \"@planetscale/database\"","sanitized_name":"@prisma/adapter-planetscale","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"prismabot","type":"user","email":"bot@prisma.io"},"trustedPublisher":{"oidcConfigId":"oidc:***","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"bot-npm@prisma.io","username":"prismabot"},{"email":"alex@aqrln.net","username":"aqrln"},{"email":"madden@prisma.io","username":"wmadden-prisma"},{"email":"tyler@tylerbenfield.me","username":"rtbenfield"}],"license":"Apache-2.0","date":"2026-04-22T14:07:45.353Z","links":{"homepage":"https://github.com/prisma/prisma#readme","repository":"git+https://github.com/prisma/prisma.git","bugs":"https://github.com/prisma/prisma/issues","npm":"https://www.npmjs.com/package/@prisma/adapter-planetscale"}}
+
+,
+
+{"name":"@bettersync/prisma-adapter","keywords":[],"version":"0.0.2","description":"Prisma adapter for bettersync (Postgres)","sanitized_name":"@bettersync/prisma-adapter","publisher":{"email":"alex.elizarov1@gmail.com","username":"beautyfree"},"maintainers":[{"email":"alex.elizarov1@gmail.com","username":"beautyfree"}],"license":"Apache-2.0","date":"2026-05-13T17:17:38.260Z","links":{"npm":"https://www.npmjs.com/package/@bettersync/prisma-adapter"}}
+]
+
