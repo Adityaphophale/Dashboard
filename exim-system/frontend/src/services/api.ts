@@ -1,4 +1,21 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:5000/api/v1';
+const getBackendUrls = () => {
+  const apiBase = import.meta.env.VITE_API_BASE_URL;
+  if (apiBase) {
+    const url = new URL(apiBase);
+    return {
+      apiBase,
+      backendRoot: `${url.protocol}//${url.host}`
+    };
+  }
+
+  const hostname = typeof window !== 'undefined' ? window.location.hostname : 'localhost';
+  return {
+    apiBase: `http://${hostname}:5000/api/v1`,
+    backendRoot: `http://${hostname}:5000`
+  };
+};
+
+export const { apiBase: API_BASE_URL, backendRoot: BACKEND_URL } = getBackendUrls();
 
 export async function apiRequest<T = any>(
   endpoint: string,

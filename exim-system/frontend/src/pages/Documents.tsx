@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FileText, Upload, Download, Search, X, Trash2 } from 'lucide-react';
 import type { Document } from '../services/documents';
 import { fetchDocuments, uploadDocument, deleteDocument } from '../services/documents';
+import { BACKEND_URL } from '../services/api';
 import type { Order } from '../services/orders';
 import { fetchOrders } from '../services/orders';
 import { useAuth } from '../context/AuthContext';
@@ -97,7 +98,7 @@ const Documents: React.FC = () => {
     // Open the mock file url in a new tab, or alert
     if (doc.fileUrl) {
       // Simulate file download by opening link
-      window.open(`http://localhost:5000${doc.fileUrl}`, '_blank');
+      window.open(`${BACKEND_URL}${doc.fileUrl}`, '_blank');
     } else {
       alert(`Downloading ${doc.fileName} from secure storage vault.`);
     }
