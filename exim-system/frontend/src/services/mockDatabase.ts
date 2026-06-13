@@ -19,7 +19,7 @@ const INITIAL_USERS = [
   {
     id: 'user-admin',
     email: 'admin@sogt.com',
-    password: 'password123',
+    password: 'Admin@123',
     firstName: 'Aditya',
     lastName: 'Phophale',
     role: 'Admin',
@@ -28,7 +28,7 @@ const INITIAL_USERS = [
   {
     id: 'user-sales',
     email: 'sales@sogt.com',
-    password: 'password123',
+    password: 'Sales@123',
     firstName: 'Rajesh',
     lastName: 'Kumar',
     role: 'Sales',
@@ -36,14 +36,44 @@ const INITIAL_USERS = [
   },
   {
     id: 'user-doc',
-    email: 'doc@sogt.com',
-    password: 'password123',
+    email: 'docs@sogt.com',
+    password: 'Docs@123',
     firstName: 'Meera',
     lastName: 'Sharma',
     role: 'Documentation',
     isActive: true,
+  },
+  {
+    id: 'user-accounts',
+    email: 'accounts@sogt.com',
+    password: 'Accounts@123',
+    firstName: 'Anil',
+    lastName: 'Mehta',
+    role: 'Accounts',
+    isActive: true,
+  },
+  {
+    id: 'user-customer',
+    email: 'alex.mercer@apexglobal.com',
+    password: 'Customer@123',
+    firstName: 'Alex',
+    lastName: 'Mercer',
+    role: 'Customer',
+    isActive: true,
   }
 ];
+
+// Force clear old mock users if they contain the old password or miss new roles to ensure clean updates
+if (typeof window !== 'undefined') {
+  try {
+    const storedUsers = localStorage.getItem(STORAGE_KEYS.USERS);
+    if (storedUsers && (storedUsers.includes('password123') || !storedUsers.includes('accounts@sogt.com'))) {
+      localStorage.removeItem(STORAGE_KEYS.USERS);
+    }
+  } catch (e) {
+    console.error('Failed to clean old mock users', e);
+  }
+}
 
 const INITIAL_PRODUCTS = [
   { id: 'p1', productCode: 'PRD-SP-001', name: 'Organic Green Cardamom', hsCode: '09083110', unit: 'KG', currency: 'USD', price: 18.50 },
